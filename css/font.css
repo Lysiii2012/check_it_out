@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Futura New Book';
-    src: url('../font/FuturaNewBook-Reg.eot');
-    src: local('../font/Futura New Book Reg'), local('FuturaNewBook-Reg'),
-        url('../font/FuturaNewBold-Reg.eot?#iefix') format('embedded-opentype'),
-        url('../font/FuturaNewBold-Reg.woff2') format('woff2'),
-        url('../font/FuturaNewBold-Reg.woff') format('woff'),
-        url('../font/FuturaNewBold-Reg.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'Futura New';
+    src: url('../font/FuturaNewMedium-Reg.eot');
+    src: local('Futura New Medium Reg'), local('FuturaNewMedium-Reg'),
+        url('../font/FuturaNewMedium-Reg.eot?#iefix') format('embedded-opentype'),
+        url('../font/FuturaNewMedium-Reg.woff2') format('woff2'),
+        url('../font/FuturaNewMedium-Reg.woff') format('woff'),
+        url('../font/FuturaNewMedium-Reg.ttf') format('truetype');
+    font-weight: 500;
     font-style: normal;
 }
