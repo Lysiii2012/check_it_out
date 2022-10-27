@@ -126,15 +126,16 @@ html {
 .header_content {
     max-width: 1320px;
     background:no-repeat url(../images/MaskGroup1.png);
-    margin:0 16px 16px;
+    margin:0 0 16px;
     background-size: cover;
-    padding:calc(28px + (173 - 8) * ((100vw - 360px) / (1320 - 360))) 0 calc(45px + (108 - 45) * ((100vw - 360px) / (1320 - 360))) calc(16px + (96 - 16) * ((100vw - 360px) / (1320 - 360)));   
+    padding: 150px 23px; 
+    background-position: top;
 }
 h1 {
-    font-size: calc(22px + (52 - 22) * ((100vw - 360px) / (1320 - 360)));
+    font-size: calc(22px + (49 - 22) * ((100vw - 360px) / (1320 - 360)));
     line-height: 100%;
     margin: 0 0 10px;
-    width: 50%;
+    width: 60%;
 }
 .header_content p {
     font-size: 12px;
@@ -1245,8 +1246,8 @@ h6{
     .header_content{
         background: url(../images/Mask\ Group.png);
         min-width: 720px;
-        background-size:cover;
         margin: 0 auto;
+        background-repeat: no-repeat;
     }
     .container_insta>p{
         display: none;
@@ -1318,5 +1319,9 @@ h6{
     }
     .partners{
         flex-wrap: nowrap;
+    }
+    .header_content {
+        background-size: cover;
+        padding:150px 23px;   
     }
 }
